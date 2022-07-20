@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../images/bgg.png);
+	background-size: cover;
+	background-position: center;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+.title{
+	width: 200px;
+	height: 60px;
+	margin-top: 40px;
+	position: absolute;
+	right: 200px;
+}
+.title ul{
+	display: flex;
+	position: relative;
+	cursor: pointer;
+}
+.title li:nth-child(2){
+	position: absolute;
+	left: 100px;
+}
+.title li{
+	font-size: 14px;
+	color: #7f7f7f;
+	list-style: none;
+}
+.denglu{
+	width: 100%;
+	height: 630px;
+	position: relative;
+}
+.form{
+	width: 400px;
+	height: 500px;
+	background-color: white;
+	position: absolute;
+	bottom: 30px;
+	left: 550px;
+}
+.zhanghao{
+	margin-top: 50px;
+	margin-left: 150px;
+	font-size: 26px;	
+}
+.form ul{
+	list-style: none;
+	display: flex;
+	margin-top: 40px;
+	margin-left: 80px;
+	position: relative;
+	color: gray;
+	cursor: pointer;
+}
+.form li:nth-child(2){
+	position: absolute;
+	left: 160px;
+	color: #000000;
+}
+.form li:nth-child(2):hover {
+	border-bottom: 2px solid red;
+}
+.user{
+	display: block;
+	width: 320px;
+	height: 40px;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 10px;
+}
+.wjma{
+	width: 320px;
+	height: 40px;
+	margin-left: 40px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: gray;
+	cursor: pointer;
+}
+.dl{
+	width: 320px;
+	height: 50px;
+	background-color: gainsboro;
+	font-size: 22px;
+	text-align: center;
+	color: gray;
+	margin-left: 40px;
+	line-height: 50px;
+	cursor: not-allowed;
+}
+.cs{
+	width: 320px;
+	height: 20px;
+	margin-left: 40px;
+	margin-top: 20px;
+	display: flex;
+}
+.yinsi{
+	width: 160px;
+	height: 20px;
+	font-size: 12px;
+	color: gray;
+	cursor: pointer;
+	text-align: left;
+}
+.zhuce{
+	width: 160px;
+	height: 20px;
+	font-size: 12px;
+	color: gray;
+	cursor: pointer;
+	text-align: right;
+}
+.footer{
+	height: 80px;
+	font-size: 12px;
+	color: grey;
+	text-align: center;
+	line-height: 80px;
+}

@@ -1,0 +1,653 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	display: flex;
+	position: relative;
+}
+.logo {
+	height: 50px;
+	margin-top: 17px;
+}
+.daohang {
+	height: 70px;
+	position: absolute;
+	left: 400px;
+	display: flex;
+	cursor: pointer;
+	color: black;
+}
+/* 导航条底部变色 */
+.daohang div:hover {
+	color: red;
+	border-bottom: 4px solid red;
+}
+.wenzi1 {
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 40px;
+	font-size: 14px;
+}
+.logo1 {
+	width: 100px;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	display: flex;
+}
+.logo1 a{
+	text-decoration: none;
+	
+}
+.logo1 a img {
+	width: 36px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.box1 {
+	width: 100%;
+	height: 300px;
+	background-image: url(../images/bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.wz {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 50px;
+	left: 300px;
+}
+.wenzi2 {
+	font-size: 24px;
+	margin-top: 10px;
+	margin-left: 5px;
+	color: #FFFFFF;
+}
+.wenzi3 {
+	width: 270px;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-left: 5px;
+	color: #FFFFFF;
+}
+.wenzi4 {
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid white;
+	font-size: 16px;
+	margin-top: 40px;
+	margin-left: 20px;
+	color: #FFFFFF;
+}
+.box2 {
+	width: 100%;
+	height: 600px;
+	margin-top: 10px;
+	background-image: url(../images/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	cursor: pointer;
+	transition: all .6s;
+}
+.wz1 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 230px;
+	left: 300px;
+}
+.wz2 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 430px;
+	left: 300px;
+	display: flex;
+}
+.wenzi5 {
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	margin-top: 20px;
+	color: #FFFFFF;
+}
+.wenzi6 {
+	width: 500px;
+	height: 50px;
+	font-size: 34px;
+	color: #FFFFFF;
+}
+.wenzi7 {
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	margin-top: 10px;
+	color: #FFFFFF;
+}
+.wenzi8 {
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid white;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #FFFFFF;
+	background-color: red;
+}
+.wenzi9 {
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid white;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #FFFFFF;
+}
+.box3 {
+	width: 100%;
+	height: 600px;
+	margin-top: 10px;
+	background-image: url(../images/bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	cursor: pointer;
+}
+.wz3 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 230px;
+	left: 300px;
+}
+.wz4 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 430px;
+	left: 300px;
+	display: flex;
+}
+.box4 {
+	width: 100%;
+	height: 600px;
+	margin-top: 10px;
+	background-image: url(../images/bg4.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	cursor: pointer;
+}
+.wz5 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 230px;
+	left: 300px;
+}
+.wz6 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 430px;
+	left: 300px;
+	display: flex;
+}
+.box5 {
+	width: 100%;
+	height: 600px;
+	margin-top: 10px;
+	background-image: url(../images/bg5.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	cursor: pointer;
+}
+.box6 {
+	width: 100%;
+	height: 600px;
+	margin-top: 10px;
+	background-image: url(../images/bg6.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	cursor: pointer;
+}
+.box7 {
+	width: 100%;
+	height: 600px;
+	margin-top: 10px;
+	background-image: url(../images/bg7.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	cursor: pointer;
+}
+.box8 {
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+	background-color: white;
+	display: flex;
+}
+.box8-1 {
+	width: 49%;
+	height: 500px;
+	background-image: url(../images/bg8.jpg);
+	background-size: cover;
+	background-position-x: 70%;
+	position: relative;
+	cursor: pointer;
+	transition: all .6s;
+}
+.box8-2 {
+	width: 49%;
+	height: 500px;
+	background-image: url(../images/bg9.jpg);
+	background-size: cover;
+	background-position-x: 70%;
+	margin-left: 2%;
+	position: relative;
+	cursor: pointer;
+	transition: all .6s;
+}
+.wz7 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	color: white;
+}
+.wz8 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	color: white;
+}
+.wenzi10 {
+	width: 300px;
+	height: 40px;
+	font-size: 22px;
+	margin-left: 15px;
+}
+.wenzi11 {
+	width: 200px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+}
+.wenzi12 {
+	width: 200px;
+	height: 40px;
+	font-size: 16px;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 15px;
+}
+.box9 {
+	width: 100%;
+	height: 500px;
+	margin-top: 10px;
+	background-color: white;
+	display: flex;
+}
+.box9-1 {
+	width: 49%;
+	height: 500px;
+	background-image: url(../images/bg10.png);
+	background-size: cover;
+	background-position-x: 70%;
+	position: relative;
+	cursor: pointer;
+	transition: all .6s;
+}
+.box9-2 {
+	width: 49%;
+	height: 500px;
+	background-image: url(../images/bg11.png);
+	background-size: cover;
+	background-position-x: 45%;
+	margin-left: 2%;
+	position: relative;
+	cursor: pointer;
+	transition: all .6s;
+}
+.wz9 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	color: black;
+}
+.wz10 {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	color: black;
+}
+.box9-1 div div:nth-child(1) {
+	margin-left: 45px;
+}
+.box9-1 div div:nth-child(2) {
+	width: 250px;
+}
+/* nth-child(n) 选择器匹配属于其父元素的第 N 个子元素，不论元素的类型。 */
+.box9-1 div div:nth-child(3) {
+	margin-top: -10px;
+}
+.box10 {
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	margin-top: 40px;
+}
+.box10-1 {
+	width: 25%;
+	height: 80px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 120px;
+	cursor: pointer;
+}
+.box10-2 {
+	width: 25%;
+	height: 80px;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.box10-3 {
+	width: 25%;
+	height: 80px;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 50px;
+	cursor: pointer;
+}
+.box10-4 {
+	width: 25%;
+	height: 80px;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 120px;
+	cursor: pointer;
+}
+.wenzi13 {
+	padding: 20px;
+}
+.box11 {
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	display: flex;
+	position: relative;
+	border-top: 2px solid gray;
+}
+.oneplus {
+	position: absolute;
+	top: 50px;
+}
+.oneplus1 {
+	left: 100px;
+}
+.oneplus li {
+	font-size: 16px;
+	color: gray;
+	list-style: none;
+	background-color: white;
+	padding: 20px;
+	cursor: pointer;
+}
+.oneplus li:nth-child(1) {
+	color: #000000;
+}
+.oneplus2 {
+	left: 350px;
+}
+.oneplus3 {
+	left: 650px;
+}
+.oneplus4 {
+	left: 950px;
+}
+.box11 li:hover{
+	color: #000000;
+}
+.box12 {
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+	display: flex;
+	position: relative;
+}
+.box12-1 {
+	width: 200px;
+	height: 30px;
+	background-color: white;
+	margin-left: 100px;
+	margin-top: 10px;
+	display: flex;
+}
+.wenzi14 {
+	font-size: 14px;
+	color: #000000;
+}
+.wenzi15 {
+	font-size: 14px;
+	color: #0099cc;
+	cursor: pointer;
+}
+.box12-2 {
+	width: 700px;
+	height: 50px;
+	margin-top: 5px;
+	position: absolute;
+	right: 50px;
+	display: flex;
+}
+.tupian1 {
+	width: 300px;
+	height: 48px;
+	margin-left: 100px;
+	display: flex;
+}
+.tupian1 img {
+	display: block;
+	height: 40px;
+	margin-left: 5px;
+}
+.shuzi {
+	margin-top: 10px;
+	font-size: 16px;
+	color: #0099cc;
+	cursor: pointer;
+}
+.time {
+	width: 220px;
+	height: 48px;
+}
+.time1 {
+	font-size: 14px;
+	color: #222;
+	margin-top: 13px;
+}
+.tubiao {
+	display: flex;
+}
+.tupian2 {
+	width: 50px;
+	height: 48px;
+	margin-right: 10px;
+	display: flex;
+	cursor: pointer;
+}
+.footer {
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	border-top: 2px solid gray;
+	position: relative;
+	color: #999;
+}
+.footer1 {
+	width: 300px;
+	height: 50px;
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	margin-left: 100px;
+	display: flex;
+	cursor: pointer;
+}
+.footer1 img {
+	display: block;
+	width: 35px;
+	height: 35px;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+.f1 {
+	width: 250px;
+	height: 12px;
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 16px;
+}
+.footer2 {
+	width: 380px;
+	height: 50px;
+	background-color: white;
+	margin-top: 10px;
+	margin-left: 100px;
+	overflow: hidden;
+	position: relative;
+}
+.footer2 img {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-top: 15px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.f2 {
+	width: 350px;
+	height: 8px;
+	margin-top: 3px;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #999;
+}
+.f3 {
+	width: 350px;
+	height: 30px;
+	margin-left: 40px;
+	font-size: 12px;
+	color: #999;
+	position: absolute;
+	top: 25px;
+	cursor: pointer;
+}
+.f3:hover {
+	color: #000000;
+}
+.footer3 {
+	width: 500px;
+	height: 16px;
+	position: absolute;
+	right: 10px;
+	top: 30px;
+}
+.footer3 ul {
+	display: flex;
+	list-style: none;
+}
+.footer3 ul li {
+	padding: 0 5px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.footer4 {
+	width: 200px;
+	height: 16px;
+	position: absolute;
+	right: 20px;
+	top: 90px;
+}
+.f4 img {
+	width: 150px;
+	cursor: pointer;
+}
+/* 图片变大 */
+.box8-1:hover {
+	transform: scale(1.1);
+	filter: invert(15%);
+	z-index: 99;
+}
+.box8-2:hover {
+	transform: scale(1.1);
+	filter: invert(15%);
+	z-index: 99;
+}
+.box9-1:hover {
+	transform: scale(1.1);
+	z-index: 99;
+}
+.box9-2:hover {
+	transform: scale(1.1);
+	z-index: 99;
+}
+/* 按钮回弹 */
+.wenzi4:active {
+	user-select: none;
+	transition: transform ease-in-out .4s;
+	transform: scale(.5);
+}
+.wenzi8:active {
+	user-select: none;
+	transition: transform ease-in-out .4s;
+	transform: scale(.5);
+}
+.wenzi9:active {
+	user-select: none;
+	transition: transform ease-in-out .4s;
+	transform: scale(.5);
+}
+.box2:hover {
+	filter: invert(10%);
+}
+.box3:hover {
+	filter: invert(10%);
+}
+.box4:hover {
+	filter: invert(10%);
+}
+.box5:hover {
+	filter: invert(10%);
+}
+.box6:hover {
+	filter: invert(10%);
+}
+.box7:hover {
+	filter: invert(10%);
+}
